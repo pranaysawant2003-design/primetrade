@@ -1,0 +1,202 @@
+{
+  "overall": {
+    "label": "Overall",
+    "trades": 211218,
+    "volume_usd": 1191098773.6000483,
+    "closed_pnl": 10254486.949305672,
+    "fees": 245849.2083617271,
+    "net_after_fees": 10008637.740943946,
+    "realized_fills": 104402,
+    "win_rate": 0.8320051340012643,
+    "pnl_per_realized_fill": 98.22117343830264,
+    "pnl_margin_bps": 86.09266650751303,
+    "rows": 211224,
+    "matched_rows": 211218,
+    "sentiment_match_rate": 0.9999715941370299,
+    "date_min": "2023-05-01",
+    "date_max": "2025-05-01",
+    "accounts": 32,
+    "coins": 246,
+    "active_days": 479,
+    "distinct_trade_id_text_values": 2810,
+    "unmatched_rows": 6,
+    "unmatched_dates": [
+      "2024-10-26"
+    ]
+  },
+  "sentiment_summary": [
+    {
+      "label": "Extreme Fear",
+      "trades": 21400,
+      "volume_usd": 114484261.43999955,
+      "closed_pnl": 739110.2484899987,
+      "fees": 23888.63393938686,
+      "net_after_fees": 715221.6145506119,
+      "realized_fills": 10406,
+      "win_rate": 0.7621564482029598,
+      "pnl_per_realized_fill": 71.02731582644616,
+      "pnl_margin_bps": 64.5599874771749,
+      "sentiment_class": "Extreme Fear",
+      "active_days": 14,
+      "active_accounts": 32,
+      "avg_daily_pnl": 52793.58917785717,
+      "median_daily_pnl": 22561.739636500046,
+      "median_realized_pnl": 6.38805
+    },
+    {
+      "label": "Fear",
+      "trades": 61837,
+      "volume_usd": 483324789.7899972,
+      "closed_pnl": 3357155.441642069,
+      "fees": 92456.94867415531,
+      "net_after_fees": 3264698.4929679134,
+      "realized_fills": 29808,
+      "win_rate": 0.8728864734299517,
+      "pnl_per_realized_fill": 112.62598770940917,
+      "pnl_margin_bps": 69.4596162365423,
+      "sentiment_class": "Fear",
+      "active_days": 91,
+      "active_accounts": 32,
+      "avg_daily_pnl": 36891.81804002199,
+      "median_daily_pnl": 1412.314654,
+      "median_realized_pnl": 6.3504830000000005
+    },
+    {
+      "label": "Neutral",
+      "trades": 37686,
+      "volume_usd": 180242063.0799999,
+      "closed_pnl": 1292920.6755499996,
+      "fees": 39374.26830387093,
+      "net_after_fees": 1253546.4072461287,
+      "realized_fills": 18159,
+      "win_rate": 0.8238889806707418,
+      "pnl_per_realized_fill": 71.19999314664902,
+      "pnl_margin_bps": 71.73246097256114,
+      "sentiment_class": "Neutral",
+      "active_days": 67,
+      "active_accounts": 31,
+      "avg_daily_pnl": 19297.323515671633,
+      "median_daily_pnl": 1818.573295,
+      "median_realized_pnl": 4.583458
+    },
+    {
+      "label": "Greed",
+      "trades": 50303,
+      "volume_usd": 288582494.72000283,
+      "closed_pnl": 2150129.2729509794,
+      "fees": 63098.6919791688,
+      "net_after_fees": 2087030.5809718105,
+      "realized_fills": 25176,
+      "win_rate": 0.7689068954559898,
+      "pnl_per_realized_fill": 85.40392727005796,
+      "pnl_margin_bps": 74.50657306976095,
+      "sentiment_class": "Greed",
+      "active_days": 193,
+      "active_accounts": 31,
+      "avg_daily_pnl": 11140.56618109327,
+      "median_daily_pnl": 678.475928,
+      "median_realized_pnl": 4.9276
+    },
+    {
+      "label": "Extreme Greed",
+      "trades": 39992,
+      "volume_usd": 124465164.5699988,
+      "closed_pnl": 2715171.310672991,
+      "fees": 27030.66546514956,
+      "net_after_fees": 2688140.6452078414,
+      "realized_fills": 20853,
+      "win_rate": 0.8916702632714717,
+      "pnl_per_realized_fill": 130.2053091005127,
+      "pnl_margin_bps": 218.14708718325662,
+      "sentiment_class": "Extreme Greed",
+      "active_days": 114,
+      "active_accounts": 30,
+      "avg_daily_pnl": 23817.292198885985,
+      "median_daily_pnl": 3127.5362965000004,
+      "median_realized_pnl": 8.53074
+    }
+  ],
+  "correlations": [
+    {
+      "metric": "closed_pnl",
+      "rho": 0.039844129237169096,
+      "p_value": 0.38424657405736784
+    },
+    {
+      "metric": "net_after_fees",
+      "rho": 0.04288904353846883,
+      "p_value": 0.34893806651677056
+    },
+    {
+      "metric": "volume_usd",
+      "rho": -0.05623383658313544,
+      "p_value": 0.21926147794743836
+    },
+    {
+      "metric": "trades",
+      "rho": -0.0325919926467611,
+      "p_value": 0.4766902306114713
+    },
+    {
+      "metric": "win_rate",
+      "rho": 0.067238023700122,
+      "p_value": 0.16951265261300705
+    },
+    {
+      "metric": "pnl_per_realized_fill",
+      "rho": 0.0004175865575492846,
+      "p_value": 0.9932003118923176
+    },
+    {
+      "metric": "pnl_margin_bps",
+      "rho": 0.13454649077220257,
+      "p_value": 0.003173357880655243
+    },
+    {
+      "metric": "active_accounts",
+      "rho": -0.154032048534586,
+      "p_value": 0.0007181471150330198
+    }
+  ],
+  "execution_overall": [
+    {
+      "label": "FALSE",
+      "trades": 82815,
+      "volume_usd": 367200304.45999926,
+      "closed_pnl": 5679655.727273977,
+      "fees": 17805.26281638956,
+      "net_after_fees": 5661850.464457587,
+      "realized_fills": 40689,
+      "win_rate": 0.8572832952394996,
+      "pnl_per_realized_fill": 139.58700698650685,
+      "pnl_margin_bps": 154.67459199486277,
+      "crossed": "FALSE"
+    },
+    {
+      "label": "TRUE",
+      "trades": 128403,
+      "volume_usd": 823898469.1399941,
+      "closed_pnl": 4574831.222031989,
+      "fees": 228043.9455453421,
+      "net_after_fees": 4346787.276486647,
+      "realized_fills": 63713,
+      "win_rate": 0.8158617550578375,
+      "pnl_per_realized_fill": 71.80373270811278,
+      "pnl_margin_bps": 55.526638213168575,
+      "crossed": "TRUE"
+    }
+  ],
+  "account_concentration": {
+    "top_1_pnl_share": 0.20901899902794566,
+    "top_5_pnl_share": 0.6202435444721736,
+    "profitable_accounts": 29,
+    "losing_accounts": 3
+  },
+  "within_account_comparison": {
+    "eligible_accounts": 28,
+    "better_in_greed_count": 20,
+    "better_in_fear_count": 8,
+    "median_delta_greed_minus_fear": 42.27252456481925,
+    "wilcoxon_one_sided_p": 0.10913652926683426
+  }
+}
